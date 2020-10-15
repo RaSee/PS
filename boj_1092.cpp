@@ -39,8 +39,8 @@ int main(){
         }
         while(index[len_crain-1]>=0 && removed[index[len_crain-1]]) 
             index[len_crain-1]--; 
-        answer++;
         if(index[len_crain-1] < 0) break;
+        answer++;
     }
     printf("%d\n",answer);
     
