@@ -20,10 +20,6 @@ int main(){
                 start += power[i];
                 continue;
             }
-            if(arr[start-min]) 
-                break;
-            else{
-            }
             arr[start-min] = true;
             start += power[i];
         }
