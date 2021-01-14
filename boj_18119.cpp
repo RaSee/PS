@@ -15,8 +15,9 @@ inline int get_known_words(vector<int>& dict, int mask){
 }
 
 int main(){
-    //ios::sync_with_stdio(false);
-
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
     int n,m;
     vector<int> alpha;
     int mask = 0;
