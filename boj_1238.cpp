@@ -69,7 +69,7 @@ int main(){
 
     int max = 0;
     int student = 0;
-    for(int i=1;i<n;i++){
+    for(int i=1;i<=n;i++){
         if(forward_cost[i]+reverse_cost[i] < max){
             max = forward_cost[i]+reverse_cost[i];
         }
