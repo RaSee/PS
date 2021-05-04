@@ -16,7 +16,7 @@ int lx, ly, lz, px, py;
 int answer;
 int main(){
   scanf("%d%d%d",&Lx,&Ly,&n);
-  while(n--){
+  while(n--){re
     scanf("%d%d%d%d%d",&lx,&ly,&lz,&px,&py);
     px++, py++;
     int m = get_tree_max(py, ly, px, lx);
