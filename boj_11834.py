@@ -1,6 +1,3 @@
-import math
-import time
-
 a = int(input())
 answer = 1
 
@@ -16,9 +13,6 @@ while x > y:
         x = b
         break
 
-#print(x, y, b)
 x += 1
 answer = 2*a - x
 print(answer)
-
-        
